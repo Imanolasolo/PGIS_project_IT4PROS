@@ -14,10 +14,10 @@ let config = {
   const lat = 4.68352;
   const lng = -74.06251;
   
-  const name1 = "CLÍNICA VASCULAR NAVARRA LTDA"
+  const nameHSP = "CLÍNICA VASCULAR NAVARRA LTDA"
   // coordinate array with popup text
   let points = [
-    [4.69387, -74.05550, name1],
+    [4.69387, -74.05550, nameHSP],
     [4.66861, -74.05756, "IMÁGENES DIAGNÓSTICAS DEL COUNTRY"],
     [4.57102, -74.1072, "FUNDACIÓN HOSPITAL SAN CARLOS"],
     [6.27723, -75.57980, "HOSPITAL PABLO TOBÓN URIBE"],
@@ -28,7 +28,7 @@ let config = {
     [3.46059, -76.53013, "CLÍNICA DE OCCIDENTE"],
     [3.41163, -76.48473, "HOSPITAL ISAIAS DUARTE CANCINO E.S.E"],
     [3.53398, -76.29692, "REHABILITACION FISICA INTEGRAL IPS EU"],
-    [4.72541, -75.90537, "CLÍNICA PORTOAZUL S.A SIGLA CPA"],
+    [11.01668, -74.84599, "CLÍNICA PORTOAZUL S.A SIGLA CPA"],
     [10.98973, -74.95579, "IPS UNIDAD MEDICA ETICA E.U"],
     [7.06974, -73.16930, "CLÍNICA GIRÓN E.S.E"],
     [7.11386, -73.10769, "CENTRO DE ATENCIÓN Y DIAGNÓSTICO DE ENFERMEDADES INFECCIOSAS CDI S.A."],
@@ -58,7 +58,7 @@ let config = {
   // Used to load and display tile layers on the map
   // Most tile servers require attribution, which you can set under `Layer`
   const attribution =
-  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  'IT4PROS 2022 &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 const osmURL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 const orm = L.tileLayer(osmURL, { attribution }).addTo(map);
 
@@ -78,7 +78,7 @@ map
     console.log(e);
     // marker
     const marker = L.marker([e.latitude, e.longitude]).bindPopup(
-      "Your are here :)"
+      "You are here :)"
     );
     // circle
     const circle = L.circle([e.latitude, e.longitude], e.accuracy / 2, {
