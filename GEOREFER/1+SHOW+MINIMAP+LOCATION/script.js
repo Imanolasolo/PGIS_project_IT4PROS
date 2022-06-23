@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /**
- * Marker grouping width markercluster plugin
+ * PGIS Georreferencing project
  */
 
 // config map
@@ -10,7 +10,7 @@ let config = {
   };
   // magnification with which the map will start
   const zoom = 6;
-  // coordinates
+  // Starting map coordinates
   const lat = 4.68352;
   const lng = -74.06251;
   
