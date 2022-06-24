@@ -11,6 +11,8 @@ Team members:
 * Imanol Asolo: Responsible for Web Stack development (Front end Georeferencing and Back End support) and business idea.
 
 
-Imanol Asolo: jjusturi@gmail.com 3848@holbertonschool.com @Imanolasolo (Github)
-Alex O. Arévalo: 
-Andrés Medina:
+- Imanol Asolo: jjusturi@gmail.com 3848@holbertonschool.com @Imanolasolo (Github)
+
+- Alex O. Arévalo: 
+
+- Andrés Medina:
