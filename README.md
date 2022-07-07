@@ -35,7 +35,12 @@ Repository Created to host all the codebase,dependencies and documents related t
 ## Author(s):blue_book:
 
 Work is owned and maintained by:
+
+* Alex O. Arevalo <[3915]>(mailto:3915@holbertonschool.com)
+
 * Imanol Asolo <[3848](mailto:3848@holbertonschool.com)> [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Imanolasolo) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/jjusturi) [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/imanol-asolo-5ba9b42a/)
+
+* Andrés Medina: <[3371]>(mailto:3371@holbertonschool.com).
 
 ## Acknowledgments :mega: 
 
